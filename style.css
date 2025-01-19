@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  background: #f4f4f4;
+  color: #333;
+}
+
+#Bio {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 2% auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+
+.bio-headings {
+  width: 100%;
+  max-width: 300px;
+  background: linear-gradient(135deg, #0e3551, #1d668a);
+  color: #ffffff;
+  text-align: center;
+  padding: 2%;
+  flex-shrink: 0;
+}
+
+#bio-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+#name {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  letter-spacing: 1.2px;
+}
+
+.line1 {
+  border: none;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 10px auto;
+  width: 50%;
+}
+
+.designation {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #e0edfb;
+}
+
+.bio-details {
+  flex: 1;
+  padding: 20px;
+  background: #bed7f0b9;
+}
+
+.about,
+.skills {
+  margin-bottom: 20px;
+}
+
+.about h4,
+.skills h4 {
+  color: #0e3551;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.about p,
+.skills ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #Bio {
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px;
+    margin: 0;
+  }
+
+  .bio-headings {
+    max-width: 100%;
+    padding: 5%;
+  }
+
+  .bio-details {
+    padding: 10%;
+  }
+}
