@@ -25,34 +25,5 @@ This project is a personal bio webpage built using HTML and CSS. It features a m
 
 ---
 
-## **Getting Started**
-
-### Prerequisites
-Ensure you have the following installed on your system:
-- A modern web browser (e.g., Chrome, Firefox).
-- A code editor (e.g., VS Code).
-
-### Steps to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd your-repo-name
-   ```
-3. Open the `index.html` file in a browser.
-
----
-
-## **Screenshots**
-### Desktop View
-*(Add a screenshot or image URL)*
-
-### Mobile View
-*(Add a screenshot or image URL)*
-
----
-
 ## **License**
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project as per the license terms.
