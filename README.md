@@ -22,8 +22,3 @@ This project is a personal bio webpage built using HTML and CSS. It features a m
 ## **Technologies Used**
 - **HTML5**: For the webpage structure.
 - **CSS3**: For styling and layout.
-
----
-
-## **License**
-This project is licensed under the MIT License. You are free to use, modify, and distribute this project as per the license terms.
